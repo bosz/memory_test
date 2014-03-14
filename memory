@@ -1,0 +1,18 @@
+#!/bin/bash
+
+gcc -c functions_memory.c
+ar crv libmem.a functions_memory.o > logfile.er
+ranlib libmem.a >>logfile.log
+gcc -c test_main.c
+rm functions_memory.o >> logfile.er
+echo 
+echo "-------IF U GET WRONG RESULTS, U MIGHT WANT TO CONSULT THE logfile.er.---------"
+echo 
+gcc -o re test_main.o libmem.a
+rm -r test_main.o libmem.a >> /logfile.er
+rm *~ >> logfile.er
+#clear
+./re
+
+
+
