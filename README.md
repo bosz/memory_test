@@ -26,8 +26,7 @@ To keep track of the number of questions the player has played in the difficult,
 
 e.g
 
-<code>
-quest_easy[0]: number of easy timed questions answered.<br/>
+<code>quest_easy[0]: number of easy timed questions answered.<br/>
 quest_easy[1]: number of easy untimed question answered.
 </code>
 
