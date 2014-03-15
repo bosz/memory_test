@@ -22,10 +22,13 @@ U will be given a system sleep time of 10
 
 Then after this time, the numbers will be taken off the terminal for the user to rewrite.
 
-To keep track of the number of questions the player has played in the difficult, normal and easy levels of the time and untimed section, variables quest_<category>[2] are defined where the first cell is for the timed games of the respective categories and the 2nd cells are for the untimed games in their respective categories.
+To keep track of the number of questions the player has played in the difficult, normal and easy levels of the time and untimed section, variables quest_category[2] are defined where the first cell is for the timed games of the respective categories and the 2nd cells are for the untimed games in their respective categories.
 
-eg quest_easy[0]: number of easy timed questions answerd.
-   quest_easy[1]: number of easy untimed question answered.
+e.g
+<code >
+quest_easy[0]: number of easy timed questions answered.
+quest_easy[1]: number of easy untimed question answered.
+</code>
 
 ###COMPILING THE GAME:
 Open the terminal and type the following command
@@ -40,7 +43,7 @@ $ 	./memgame
 </pre>
 
 ###AUTHOR:
-Fongoh Martin Tayong aka _echelon
-FET
-University of Buea, Cameroon
-fongohmartin@gmail.com
+Fongoh Martin Tayong aka _echelon<br/>
+FET<br/>
+[University of Buea, Cameroon](http://ubuea.cm)
+fongohmartin@gmail.com<br/>
