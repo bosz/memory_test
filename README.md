@@ -45,5 +45,5 @@ $ 	./memgame
 ###AUTHOR:
 Fongoh Martin Tayong aka _echelon<br/>
 FET<br/>
-[University of Buea, Cameroon](http://ubuea.cm)
-fongohmartin@gmail.com<br/>
+[University of Buea, Cameroon](http://ubuea.cm)<br/>
+fongohmartin@gmail.com
