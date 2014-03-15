@@ -11,7 +11,7 @@ Modified: 11/03/14:
 */
 #include<stdio.h>
 #include<stdlib.h>
-#include"header_memory.h"
+#include"functions_memory.h"
 
 int main(void)
 {
