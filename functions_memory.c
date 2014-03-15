@@ -9,7 +9,7 @@ FET-UB
 #include<unistd.h>
 #include<time.h>
 #include<ctype.h>
-#include"header_memory.h"
+#include"functions_memory.h"
 item quest_easy[2], quest_normal[2], quest_difficult[2];
 char *level_mode[]={"", "", "", "Easy", "",  "Normal", "", "Difficult"};
 
