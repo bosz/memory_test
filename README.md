@@ -24,7 +24,9 @@ Then after this time, the numbers will be taken off the terminal for the user to
 
 To keep track of the number of questions the player has played in the difficult, normal and easy levels of the time and untimed section, variables quest_category[2] are defined where the first cell is for the timed games of the respective categories and the 2nd cells are for the untimed games in their respective categories.
 
-e.g<code>
+e.g
+
+<code>
 quest_easy[0]: number of easy timed questions answered.<br/>
 quest_easy[1]: number of easy untimed question answered.
 </code>
